@@ -22,6 +22,8 @@
                 <Button x:Name="btnSumar" Content="Sumar" Width="100" Margin="10" Click="btnSumar_Click"/>
                 <Button x:Name="btnRestar" Content="Restar" Width="100" Margin="10" Click="btnRestar_Click"/>
                 <Button x:Name="btnMultiplicar" Content="Multiplicar" Width="100" Margin="10" Click="btnMultiplicar_Click"/>
+                
+
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label x:Name="lblSuma" Content="ResultadoSuma" HorizontalAlignment="Center" FontWeight="Bold" Margin="10"/>
@@ -30,26 +32,7 @@
 
             </StackPanel>
 
-            
+
         </StackPanel>
-        <!--<StackPanel>
-            <StackPanel Orientation="Horizontal" >
-                <Label Content="Valor 1" Width="200" FontWeight="Bold"/>
-                <TextBox Width="200" Background="Azure"
-                         x:Name="txtValor1"></TextBox>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <Label Content="Valor 2" Width="200" FontWeight="Bold"/>
-                <TextBox Width="200" Background="Azure"
-                         x:Name="txtValor2"></TextBox>
-            </StackPanel>
-            <Button  x:Name="btnSumar" Click="btnSumar_Click"
-                     Content="Sumar"></Button>
-            <Button x:Name="btnRestar"  Click="btnRestar_Click"
-                    Content="Restar"/>
-            <Button Content="Multiplicar" x:Name="btnMultiplicar" Click="btnMultiplicar_Click" />
-            
-            <Label x:Name="lblSuma"  Content="Valor 2" Width="200" FontWeight="Bold"/>
-        </StackPanel>-->
     </Grid>
 </Window>
