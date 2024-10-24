@@ -1,0 +1,38 @@
+﻿<Window x:Class="Codigo2024Clase22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Codigo2024Clase22"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left">
+            <TextBox Text="Mi Primera Caja" Width="200" Height="30"></TextBox>
+            <Button Content="Mi Primer botón"/>
+            <Label Content="Mi primer label" Background="Green"/>
+            <CheckBox Content="Mi Primer Checkbox"></CheckBox>
+            
+            <RadioButton Content="Option 1" GroupName="Group1" />
+            <RadioButton Content="Option 2" GroupName="Group1" />
+            <RadioButton Content="Option 2" GroupName="Group1" />
+
+            <ComboBox>
+                <ComboBoxItem Content="Option 1"/>
+                <ComboBoxItem Content="Option 2"/>
+                <ComboBoxItem Content="Option 3"/>
+            </ComboBox>
+            
+            <ListBox>
+                <ListBoxItem Content="Item 1"/>
+                <ListBoxItem Content="Item 2"/>
+            </ListBox>
+
+            <Slider Minimum="0" Maximum="100" Value="70"/>
+            <ProgressBar Minimum="0" Maximum="100" Value="50" Height="10"/>
+            
+
+        </StackPanel>
+
+    </Grid>
+</Window>
