@@ -21,8 +21,10 @@
             <TextBlock Text="Correo Electrónico:" Margin="5" FontWeight="Bold"/>
             <TextBox x:Name="txtCorreo" Margin="5" Height="30"/>
 
-            <Button  x:Name="Registrar" Content="Registrar Usuario"  Click="Registrar_Click"
-                    Height="30" Background="Beige" Margin="5"
+            <Button  x:Name="Registrar" Content="Registrar Usuario" 
+                     Background="Yellow"
+                     Click="Registrar_Click"
+                    
                      />
         </StackPanel>
 

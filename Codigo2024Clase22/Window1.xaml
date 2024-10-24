@@ -7,12 +7,7 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="400">
     <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Background" Value="Beige"/>
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="Width" Value="100"/>
-        </Style>
+        
         <Style x:Key="styleButtonBasic" TargetType="Button">
             <Setter Property="Height" Value="30"/>
             <Setter Property="Margin" Value="5"/>
@@ -29,12 +24,7 @@
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="Margin" Value="10"/>
         </Style>
-        <Style x:Key="styleLabelDemo" TargetType="Label">
-            <Setter Property="Foreground" Value="blue"/>
-            <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Margin" Value="10"/>
-        </Style>
+     
 
     </Window.Resources>
     <Grid>

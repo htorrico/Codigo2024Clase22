@@ -4,6 +4,22 @@
              xmlns:local="clr-namespace:Codigo2024Clase22"
              StartupUri="WindowManUsuario.xaml">
     <Application.Resources>
-         
+
+        <!--Global Implícito-->
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="100"/>
+        </Style>
+        
+        <!--Global Explícito-->
+        <Style x:Key="styleLabelDemo" TargetType="Label">
+            <Setter Property="Foreground" Value="blue"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+
     </Application.Resources>
 </Application>
